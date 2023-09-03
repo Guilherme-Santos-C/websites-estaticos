@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Roboto&display=swap');
+
+:root {
+  --textSecondary-color: rgb(63, 62, 62);
+  --font-family: 'Poppins', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 23% 77%;
+  font-family: var(--font-family);
+}
+
+aside {
+  display: grid;
+  grid-template-rows: 10% 90%;
+  height: 100vh;
+  border-right: 3px solid gray;
+
+}
+
+#container-title {
+  border-bottom: 1px solid black;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow-y: scroll;
+}
+
+a {
+  display: flex;
+  border-bottom: 1px solid black;
+  padding: 13px 0 13px 30px;
+  color: var(--textSecondary-color);
+}
+
+a:hover {
+  display: flex;
+  border-bottom: 1px solid black;
+  padding: 13px 0 13px 30px;
+  text-decoration: none;
+  font-family: var(--font-family);
+  transition: 0.3s;
+}
+
+main {
+    padding: 20px;
+    overflow-y: scroll;
+    max-height: 100vh;
+    max-width: 100vw;
+}
+
+section {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  color: var(--textSecondary-color);
+}
+
+header {
+  color: black;
+}
+
+.card{
+  border: none;
+  box-shadow: 1px 1px 3px;
+}
+
+p{
+  padding-left: 10px;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+#lista-tipos-dados {
+  padding: 15px 0 0 23px;
+}
+
+@media only screen and (max-width: 1000px){
+  body {
+    grid-template-columns: 100%;
+  }
+  aside {
+    display: none;
+  }
+}

@@ -1,0 +1,128 @@
+  @import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body {
+    font-size: 100%;
+    background-image: linear-gradient(to right, #2F2325 0%,
+            #8E5D52 100%);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    padding: 10px;
+    background-image: linear-gradient(to right, #2F2325 0%,
+            #8E5D52 100%);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 5vh;
+    font-family: 'Sarala', sans-serif;
+    font-size: 16px;
+
+
+}
+
+.navItems {
+    color: #FFF2E7;
+
+}
+
+.imgLogo {
+    height: 62px;
+}
+
+main{
+    margin-bottom: 40px;
+}
+
+.mainItems{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 0.4px solid #FFF2E7;
+
+}
+.mainItemsText{
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    color: #FFF2E7;
+
+}
+
+.mainItemsh1{
+    font-size: 62px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400px;
+    
+}
+
+.mainItemsP{
+    font-size: 24px;
+    font-family: 'Sarala', sans-serif;
+    color: #ECD6C4;
+
+}
+
+.mainItemsButton{
+    width: 180px;
+    height: 55px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-size: 24px;
+    color: #2F2325;
+    background-color: #ECD6C4;
+    cursor: pointer;
+}
+
+.figureBalleBot{
+    height: 329.31px;
+    width: 294.13px;
+}
+
+.subItems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+.subItemsCabecalho{
+    color: #FFF2E7;
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 20px;
+    font-size: 24px;
+    font-family: 'Righteous', cursive;
+}
+
+.divP{
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    color: #ECD6C4;
+    font-size: 18px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300px;
+}
+
+.container{
+    border-top: solid 0.4px #FFF2E7;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
